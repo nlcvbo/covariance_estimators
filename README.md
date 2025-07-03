@@ -1,5 +1,6 @@
 Python code for some covariance estimators.
 
+* QuEST: implementation of the QuEST function following [Ledoit and Wolf, 2017].
 * analytical_shrinkage: Analytical non-linear shrinkage estimator using kernel density estimation, following [Ledoit and Wolf, 2020] when samples are uniformly weighted.
 * QIS: Quadratic-Inverse Shrinkage estimator, following [Ledoit and Wolf, 2020], code inspired from Patrick Ledoit's implementation (github.com/pald22/covShrinkage).
 * LIS: Linear-Inverse Shrinkage estimator, following [Ledoit and Wolf, 2020], code inspired from Patrick Ledoit's implementation (github.com/pald22/covShrinkage).
@@ -11,6 +12,5 @@ Python code for some covariance estimators.
 * CCC: Constant Conditional Correlation [Bollerslev, 1990].
 * DCC: Dynamic Conditional Correlation [Engle, 2002] originally, [Pakel, 2021] for 2MSCLE, [Engle et al., 2019] for targetted correlation improvement.
 
-* QuEST: implementation of the QuEST function following [Ledoit and Wolf, 2017].
 
 Estimators implemented in ScikitLearn are not reproduced here - it includes OAS, Empirical Covariance, Shrunk Covaricance, GLasso, MinCovDet, Elliptic Envelope.
