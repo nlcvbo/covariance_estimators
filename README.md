@@ -1,4 +1,4 @@
-Python code for somes estimators described in the review.
+Python code for some covariance estimators.
 
 * LWO_estimator: Linear shrinkage estimator following [Ledoit and Wolf, 2004] when the mean is known, and [Oriol and Miot, 2025] when it is unknown.
 * MTSE:	Multi-target linear shrinkage estimator, following [Oriol, 2023].
